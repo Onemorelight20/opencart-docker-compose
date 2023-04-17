@@ -1,0 +1,60 @@
+[17-Apr-2023 15:00:15 UTC] PHP Warning:  require_once(/usr/share/nginx/system/startup.php): Failed to open stream: No such file or directory in /usr/share/nginx/html/opencart/index.php on line 67
+[17-Apr-2023 15:00:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/usr/share/nginx/system/startup.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/opencart/index.php:67
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/opencart/index.php on line 67
+[17-Apr-2023 15:07:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'cart' in /usr/share/nginx/html/cart/system/library/db/mysqli.php:7
+Stack trace:
+#0 /usr/share/nginx/html/cart/system/library/db/mysqli.php(7): mysqli->__construct('mysql', 'root', 'password', 'cart', '3306')
+#1 /usr/share/nginx/html/cart/system/library/db.php(9): DB\MySQLi->__construct('mysql', 'root', 'password', 'cart', '3306')
+#2 /usr/share/nginx/html/cart/system/framework.php(36): DB->__construct('mysqli', 'mysql', 'root', 'password', 'cart', '3306')
+#3 /usr/share/nginx/html/cart/system/startup.php(124): require_once('/usr/share/ngin...')
+#4 /usr/share/nginx/html/cart/index.php(19): start('catalog')
+#5 {main}
+  thrown in /usr/share/nginx/html/cart/system/library/db/mysqli.php on line 7
+[17-Apr-2023 15:08:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'cart' in /usr/share/nginx/html/cart/system/library/db/mysqli.php:7
+Stack trace:
+#0 /usr/share/nginx/html/cart/system/library/db/mysqli.php(7): mysqli->__construct('mysql', 'root', 'password', 'cart', '3306')
+#1 /usr/share/nginx/html/cart/system/library/db.php(9): DB\MySQLi->__construct('mysql', 'root', 'password', 'cart', '3306')
+#2 /usr/share/nginx/html/cart/system/framework.php(36): DB->__construct('mysqli', 'mysql', 'root', 'password', 'cart', '3306')
+#3 /usr/share/nginx/html/cart/system/startup.php(124): require_once('/usr/share/ngin...')
+#4 /usr/share/nginx/html/cart/index.php(19): start('catalog')
+#5 {main}
+  thrown in /usr/share/nginx/html/cart/system/library/db/mysqli.php on line 7
+[17-Apr-2023 15:08:11 UTC] PHP Warning:  require_once(/usr/share/nginx/system/startup.php): Failed to open stream: No such file or directory in /usr/share/nginx/html/opencart/index.php on line 67
+[17-Apr-2023 15:08:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/usr/share/nginx/system/startup.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/opencart/index.php:67
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/opencart/index.php on line 67
+[17-Apr-2023 15:13:49 UTC] PHP Warning:  require_once(/usr/share/nginx/opencart/system/startup.php): Failed to open stream: No such file or directory in /usr/share/nginx/html/opencart/index.php on line 67
+[17-Apr-2023 15:13:49 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/usr/share/nginx/opencart/system/startup.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/opencart/index.php:67
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/opencart/index.php on line 67
+[17-Apr-2023 16:25:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'cart' in /usr/share/nginx/html/cart/system/library/db/mysqli.php:7
+Stack trace:
+#0 /usr/share/nginx/html/cart/system/library/db/mysqli.php(7): mysqli->__construct('mysql', 'root', 'password', 'cart', '3306')
+#1 /usr/share/nginx/html/cart/system/library/db.php(9): DB\MySQLi->__construct('mysql', 'root', 'password', 'cart', '3306')
+#2 /usr/share/nginx/html/cart/system/framework.php(36): DB->__construct('mysqli', 'mysql', 'root', 'password', 'cart', '3306')
+#3 /usr/share/nginx/html/cart/system/startup.php(124): require_once('/usr/share/ngin...')
+#4 /usr/share/nginx/html/cart/index.php(19): start('catalog')
+#5 {main}
+  thrown in /usr/share/nginx/html/cart/system/library/db/mysqli.php on line 7
+[17-Apr-2023 17:33:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'cart' in /usr/share/nginx/html/cart/system/library/db/mysqli.php:7
+Stack trace:
+#0 /usr/share/nginx/html/cart/system/library/db/mysqli.php(7): mysqli->__construct('mysql', 'root', 'password', 'cart', '3306')
+#1 /usr/share/nginx/html/cart/system/library/db.php(9): DB\MySQLi->__construct('mysql', 'root', 'password', 'cart', '3306')
+#2 /usr/share/nginx/html/cart/system/framework.php(36): DB->__construct('mysqli', 'mysql', 'root', 'password', 'cart', '3306')
+#3 /usr/share/nginx/html/cart/system/startup.php(124): require_once('/usr/share/ngin...')
+#4 /usr/share/nginx/html/cart/index.php(19): start('catalog')
+#5 {main}
+  thrown in /usr/share/nginx/html/cart/system/library/db/mysqli.php on line 7
+[17-Apr-2023 17:34:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'opencart_db' in /usr/share/nginx/html/cart/system/library/db/mysqli.php:7
+Stack trace:
+#0 /usr/share/nginx/html/cart/system/library/db/mysqli.php(7): mysqli->__construct('mysql', 'root', 'password', 'opencart_db', '3306')
+#1 /usr/share/nginx/html/cart/system/library/db.php(9): DB\MySQLi->__construct('mysql', 'root', 'password', 'opencart_db', '3306')
+#2 /usr/share/nginx/html/cart/system/framework.php(36): DB->__construct('mysqli', 'mysql', 'root', 'password', 'opencart_db', '3306')
+#3 /usr/share/nginx/html/cart/system/startup.php(124): require_once('/usr/share/ngin...')
+#4 /usr/share/nginx/html/cart/index.php(19): start('catalog')
+#5 {main}
+  thrown in /usr/share/nginx/html/cart/system/library/db/mysqli.php on line 7
